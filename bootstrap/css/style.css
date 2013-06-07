@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin: 0px;
+position: relative;
+background:#28292a;
+background-size: 100% 100%;
+
+}
+
+#cuerpo {
+margin:0px 0px;
+
+  /* Firefox 3.6+ */
+ background: -moz-linear-gradient(top,#000, #666 , #000);
+ /* Safari 4-5, Chrome 1-9 */
+ background: -webkit-gradient(linear, 0 0, 0 100%,from(#EED5B7) to(#F0FFFF),  to(#EED5B7));
+ /* Safari 5.1+, Chrome 10+ */
+ background: -webkit-linear-gradient(top,#EED5B7 5%, #F0FFFF);
+ /* Opera 11.10+ */
+ background: -o-linear-gradient(top,#000, #666, #000);
+	
+	 /* Internet Explorer 5.5+ */  
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#2c2c2c', EndColorStr='#65b6cf');  
+ 
+/* IE 10 */
+ background: -ms-linear-gradient(top, #2c2c2c, #65b6cf, #2c2c2c);
+  /* estándar */
+ background: linear-gradient(top,#2c2c2c, #65b6cf, #2c2c2c);
+width: 100%;
+height: 700px;
+}
+
+#principal{
+margin: auto;
+height: 100%;
+width: 980px;
+border: 1px solid;
+
+}
+
